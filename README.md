@@ -15,3 +15,7 @@ rojo serve
 ```
 
 For more help, check out [the Rojo documentation](https://rojo.space/docs).
+
+## Team planning docs
+
+See [docs/planning/](docs/planning/) for the PC Repair Simulator design plan, the existing rarity system reference, Rojo conversion notes, and an important open item on monetization ownership.
