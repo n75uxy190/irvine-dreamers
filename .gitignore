@@ -1,6 +1,10 @@
 # Project place file
 /irvine-dreamers.rbxlx
 
+# Source place file used for syncback (kept out of git, too large)
+/steal-a-base.rbxl
+/steal-a-base.rbxlx
+
 # Roblox Studio lock files
 /*.rbxlx.lock
 /*.rbxl.lock

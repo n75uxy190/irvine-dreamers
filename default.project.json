@@ -2,25 +2,172 @@
   "name": "irvine-dreamers",
   "tree": {
     "$className": "DataModel",
-
+    "Chat": {
+      "$properties": {
+        "BubbleChatEnabled": true,
+        "IsAutoMigrated": true
+      },
+      "$path": "src/Chat"
+    },
+    "Lighting": {
+      "$properties": {
+        "Ambient": [
+          0.9450980424880981,
+          0.9450980424880981,
+          0.9450980424880981
+        ],
+        "Brightness": 2.0,
+        "ColorShift_Bottom": [
+          0.5882353186607361,
+          0.5882353186607361,
+          0.9098039269447327
+        ],
+        "ColorShift_Top": [
+          0.886274516582489,
+          0.886274516582489,
+          0.886274516582489
+        ],
+        "EnvironmentDiffuseScale": 1.0,
+        "EnvironmentSpecularScale": 0.5,
+        "FogColor": [
+          0.7529412508010864,
+          0.7529412508010864,
+          0.7529412508010864
+        ],
+        "GeographicLatitude": 22.033000946044922,
+        "GlobalShadows": true,
+        "OutdoorAmbient": [
+          0.8313725590705872,
+          0.8313725590705872,
+          0.8313725590705872
+        ],
+        "Outlines": false,
+        "PrioritizeLightingQuality": true,
+        "ShadowSoftness": 0.20000000298023224,
+        "Technology": "ShadowMap"
+      },
+      "$path": "src/Lighting"
+    },
+    "ReplicatedFirst": {
+      "$path": "src/ReplicatedFirst"
+    },
     "ReplicatedStorage": {
-      "Shared": {
-        "$path": "src/shared"
-      }
+      "$attributes": {
+        "_lemonadeUniqueId": "rs1"
+      },
+      "$path": "src/ReplicatedStorage"
     },
-
     "ServerScriptService": {
-      "Server": {
-        "$path": "src/server"
-      }
+      "$path": "src/ServerScriptService"
     },
-
+    "ServerStorage": {
+      "$path": "src/ServerStorage"
+    },
+    "SoundService": {
+      "$properties": {
+        "DefaultListenerLocation": "Camera",
+        "RespectFilteringEnabled": true
+      },
+      "$path": "src/SoundService"
+    },
+    "StarterGui": {
+      "$path": "src/StarterGui"
+    },
+    "StarterPack": {
+      "$path": "src/StarterPack"
+    },
     "StarterPlayer": {
-      "StarterPlayerScripts": {
-        "Client": {
-          "$path": "src/client"
+      "$properties": {
+        "CameraMaxZoomDistance": 50.0,
+        "CharacterUseJumpPower": false,
+        "CharacterWalkSpeed": 30.0,
+        "UserEmotesEnabled": false
+      },
+      "$path": "src/StarterPlayer"
+    },
+    "Teams": {
+      "$path": "src/Teams"
+    },
+    "Workspace": {
+      "$properties": {
+        "AutoSimulate": {
+          "Bool": true
+        },
+        "CollisionGroupData": {
+          "BinaryString": "AQIABP3///8HRGVmYXVsdAEE/v///xlQbHVnaW5fVW5zZWxlY3RhYmxlX0dyb3Vw"
+        },
+        "ExpandedTerrain": {
+          "Enum": 0
+        },
+        "GravityDirection": {
+          "Vector3": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        "MapTVRemoteToGamepadKeycodes": {
+          "Enum": 0
+        },
+        "PredictiveStreamingMode": {
+          "Enum": 0
+        },
+        "SignalBehavior": "Deferred",
+        "SimulationRate": {
+          "Float32": 1.0
+        },
+        "StreamOutBehavior": "Opportunistic",
+        "StreamingAdaptiveRadius": {
+          "Bool": false
+        },
+        "StreamingEnabled": true,
+        "StreamingIntegrityMode": "PauseOutsideLoadedArea",
+        "UseInputSink": {
+          "Enum": 0
+        },
+        "UseNewLuauTypeSolver": "Disabled",
+        "Wind": {
+          "Float32": 0.0
+        },
+        "WindDirection": {
+          "Vector3": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "WorldPivotData": {
+          "OptionalCFrame": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
         }
-      }
+      },
+      "$attributes": {
+        "Rojo_Target_CurrentCamera": "553eb3da964062500ac3085500001db1",
+        "_lemonadeUniqueId": "ws1"
+      },
+      "$path": "src/Workspace"
     }
   }
 }

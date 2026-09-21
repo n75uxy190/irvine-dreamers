@@ -1,0 +1,49 @@
+{
+  "properties": {
+    "CanBeDropped": false,
+    "Grip": [
+      -1.9305291175842285,
+      -0.258056640625,
+      -0.19157028198242188,
+      0.0,
+      0.0,
+      -1.0,
+      -1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "position": [
+          109.68078,
+          42.447876,
+          -69.173325
+        ],
+        "orientation": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "ToolTip": "Fling players far away!",
+    "SourceAssetId": 121602579475558.0,
+    "TextureContent": "rbxassetid://86053970898333"
+  },
+  "className": "Tool"
+}

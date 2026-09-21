@@ -1,0 +1,51 @@
+{
+  "properties": {
+    "Grip": [
+      0.0,
+      0.0,
+      1.0,
+      -1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "position": [
+          102.89973,
+          40.82574,
+          71.89423
+        ],
+        "orientation": [
+          [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0
+          ]
+        ]
+      }
+    },
+    "CanBeDropped": false,
+    "SourceAssetId": 191028585.0,
+    "TextureContent": "rbxassetid://16619617"
+  },
+  "attributes": {
+    "Rojo_Target_PrimaryPart": "5f694a0ce8acf888090d5b320000b194"
+  },
+  "className": "Tool"
+}

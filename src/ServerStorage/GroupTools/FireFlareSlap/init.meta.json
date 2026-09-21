@@ -1,0 +1,63 @@
+{
+  "properties": {
+    "CanBeDropped": false,
+    "ModelMeshCFrame": [
+      78.09201049804688,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "Grip": [
+      -1.9305291175842285,
+      -0.258056640625,
+      -0.19157028198242188,
+      0.0,
+      0.0,
+      -1.0,
+      -1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "position": [
+          77.79669,
+          22.945435,
+          0.2621469
+        ],
+        "orientation": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "SourceAssetId": 121602579475558.0,
+    "ToolTip": "Fling players with group power!",
+    "TextureContent": "rbxassetid://74283829458000"
+  },
+  "className": "Tool"
+}

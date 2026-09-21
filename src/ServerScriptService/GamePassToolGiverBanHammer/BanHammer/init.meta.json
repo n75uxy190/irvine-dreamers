@@ -1,0 +1,49 @@
+{
+  "properties": {
+    "ToolTip": "Fling players and make them see their doom!",
+    "Grip": [
+      0.0,
+      -1.1240851879119873,
+      -0.23773956298828125,
+      1.0,
+      -4.0978157755944267e-8,
+      -2.3841855067985307e-7,
+      4.097818262494002e-8,
+      1.0,
+      1.0803343997167758e-7,
+      2.3841855067985307e-7,
+      -1.0803344707710494e-7,
+      1.0
+    ],
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "position": [
+          91.02038,
+          16.425701,
+          -6.1071267
+        ],
+        "orientation": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "CanBeDropped": false,
+    "SourceAssetId": 7250913946.0,
+    "TextureContent": "rbxassetid://79348478555672"
+  },
+  "className": "Tool"
+}
