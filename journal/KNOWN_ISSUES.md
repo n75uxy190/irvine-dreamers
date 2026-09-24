@@ -17,6 +17,8 @@ tries to push a real burst of packed objects, larger packets get silently
 dropped somewhere on the path (PMTU black hole — ICMP "fragmentation needed"
 apparently filtered) and the connection just sits there.
 **Fix:** `sudo ip link set dev eth0 mtu 1350` (or `ip link set` as root).
+On 2026-09-24 a `git push` still hung at 1350 and went through at **1280**, so
+if 1350 stalls, drop lower before suspecting anything else.
 **This does not persist across WSL restarts** — reapply it every time WSL
 cold-boots before doing any git network operation. Consider a startup hook
 if this keeps biting.
